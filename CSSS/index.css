@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{
+    height: 93vh;
+    width: 100%;
+
+}
+#img1{
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px 2px rgb(197, 80, 7);
+}
+#img2{
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgb(197, 80, 7);
+}
+.classabout{
+    font-size: 60px;
+}
+#content > h5{
+    color: rgb(33, 18, 2);
+    padding-bottom: 0%;
+}
+#content > h1{
+    color: rgb(159, 36, 15);
+    padding-top: 0%;
+    
+}
+.text{
+    color: rgb(25, 22, 8);
+    font-size: large;
+}
+
+
+.social{
+    text-align: center;
+    cursor: pointer;
+}
+footer , a{
+    padding-top: 30px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+
+/* responsive code */
+
+/* X-Small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
